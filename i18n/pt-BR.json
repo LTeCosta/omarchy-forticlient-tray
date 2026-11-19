@@ -1,0 +1,5 @@
+{
+  "connect": "Conectar VPN…",
+  "disconnect": "Desconectar VPN",
+  "disconnectFailed": "Não foi possível desconectar a VPN"
+}

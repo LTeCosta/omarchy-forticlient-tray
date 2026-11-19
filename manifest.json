@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ltecosta.forticlient-tray",
+  "name": "System tray with FortiClient VPN",
+  "version": "1.0.0",
+  "author": "Lucas Costa",
+  "description": "Omarchy system tray with connect and disconnect actions for FortiClient VPN.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Tray.qml"
+  },
+  "barWidget": {
+    "displayName": "System tray with FortiClient VPN",
+    "description": "Omarchy system tray with connect and disconnect actions for FortiClient VPN.",
+    "category": "Status",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.tray"
+  },
+  "license": "MIT"
+}
