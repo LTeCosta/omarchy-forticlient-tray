@@ -15,10 +15,8 @@ menu opens or a disconnect finishes and discards profile data from the CLI.
 
 ## Install
 
-From the Omarchy Plugins checkout:
-
 ```sh
-scripts/install forticlient-tray
+omarchy plugin add https://github.com/LTeCosta/omarchy-forticlient-tray.git
 ```
 
 Once `omarchy plugin list` shows the clone, enable it and restart the shell.
